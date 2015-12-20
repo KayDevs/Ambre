@@ -5,9 +5,6 @@ from pyglet.gl import *
 from Mesh import *
 from Material import *
 
-def vec(*floats):
-	return (GLfloat * len(floats))(*floats)
-
 window = pyglet.window.Window()
 
 glEnable(GL_DEPTH_TEST)
